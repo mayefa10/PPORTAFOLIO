@@ -1,3 +1,115 @@
 body {
-    font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+.headerInicial {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+.headerInicial-nav {
+  margin-bottom: 5em;
+}
+.imagen__uno {
+}
+
+.headerInicial-nav-link-nombre {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 353px;
+}
+.headerInicial-nav-link {
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  align-items: flex-end;
+}
+.headerInicial-nav a {
+  text-decoration: none;
+}
+.titulo__header {
+  width: 751px;
+  height: 122px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  color: #464646;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 1.6em;
+}
+.presentacion {
+  width: 751px;
+  height: 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 5em;
+
+  /* Preto/100% */
+
+  color: #464646;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 50px;
+}
+.imagen__header {
+  /* background: url(../assets/img/estrella.png); */
+}
+.headerInicial-nav-redesSociales {
+  margin-bottom: 80px;
+  
+}
+.headerInicial-nav-link-redesSociales {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  padding: 10px 0;
+  
+  
+  /* flex: none;
+order: 0;
+flex-grow: 0; */
+}
+.imagen__dos {
+  margin-right: 4em;
+  margin-left: .5em;
+}
+
+.contenidoPrincipal {
+}
+.sobreMi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  gap: 10px;
+  width: 1440px;
+  height: 383px;
+
+  /* Azul/10% */
+
+  background: #eaf2fd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
 }

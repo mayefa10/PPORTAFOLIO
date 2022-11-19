@@ -1,0 +1,43 @@
+.contenidoPrincipal {
+}
+.sobreMi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+  width: 1440px;
+  height: 383px;
+  background: #eaf2fd;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.titulo-SobreMi {
+  margin-top: 2em;
+  width: 137px;
+  height: 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 2em;
+}
+.sobreMi-parrafo {
+  width: 751px;
+  height: 133px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

@@ -1,0 +1,159 @@
+.skillsHobbies {
+    background-color: #f5f5f5;
+    /* padding: 20px auto; */
+  }
+  .skillsHobbies .formacion__Academica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+    width: 1440px;
+    height: 1245px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .tituloSkills {
+    width: 82px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .skillsLenguajes-programacion {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    
+    /* 
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+  }
+  
+  .skillsLenguajes-programacion-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+     /* width: 1136px;
+    height: 174px; */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .skillsLenguajes-programacion-list.img {
+    width: 176px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    background: #ffffff;
+    
+  }
+  .html__imagen {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .js__imagen {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .java__imagen {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .node__imagen {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+  .react__imagen {
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  }
+  .css__imagen {
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+  }
+  .tituloHobbies {
+    width: 127px;
+    height: 38px;
+  
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Preto/100% */
+  
+    color: #464646;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .hobbiesTiempo-libre {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+  }
+  /*
+  .hobbiesTiempo-libre-list {
+  
+  }
+  .imagen__hobbiesUno {
+  
+  }
+  .imagen__hobbiesDos {
+  
+  }
+  .imagen__hobbiesTres {
+  
+  }
+  .imagen__hobbiesCuatro {
+  
+  }
+  .imagen__hobbiesCinco {
+  
+  }
+  .imagen__hobbiesSeis{
+  
+  }*/
+  

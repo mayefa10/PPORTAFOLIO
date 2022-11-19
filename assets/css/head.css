@@ -1,0 +1,105 @@
+.headerInicial {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  .headerInicial-nav {
+    margin-bottom: 5em;
+  }
+  .imagen__uno {
+    background: url("../img/estrella.png") no-repeat;
+    padding: 0 1em;
+  }
+  
+  .headerInicial-nav-link-nombre {
+    font-style: italic;
+    margin-right: 300px;
+  }
+  .headerInicial-nav-link {
+    padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    align-items: flex-end;
+  }
+  .headerInicial-nav a {
+    text-decoration: none;
+  }
+  .presentacionInicial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 20px; /*208 */
+    width: 1136px;
+    height: 368px;
+  }
+  .parteUno__presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 751px;
+    height: 246px;
+  }
+  .nombre__header {
+    width: 751px;
+    height: 122px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 1.6em;
+  }
+  .presentacion {
+    width: 751px;
+    height: 52px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .imagen__portafolio {
+    width: 368px;
+    height: 368px;
+    background: url("../img/foto.jpg") no-repeat;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 100%;
+  }
+  .headerInicial-nav-redesSociales {
+    margin-top: 80px;
+    margin-block-end: 3em;
+  }
+  .headerInicial-nav-link-redesSociales {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding: 10px 0;
+  }
+  .imagen__dos {
+    margin-right: 4em;
+    margin-left: 0.5em;
+  }
+  

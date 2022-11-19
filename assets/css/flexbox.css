@@ -1,5 +1,23 @@
 .headerInicial.container {
-    display: flex;
-	align-items: center;
-	justify-content: space-between;
-} 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sobreMi.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1136px;
+  height: 255px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* .skillsLenguajes-programacion{
+	width: 1136px;
+	height: 244px;
+} */

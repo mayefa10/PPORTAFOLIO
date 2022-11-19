@@ -1,0 +1,106 @@
+.formacion__Academica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 82px;
+  gap: 32px;
+  width: 1440px;
+  height: 581px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  background: #EAF2FD;
+  
+}
+
+.academica__panel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1136px;
+  height: 347px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  align-self: stretch;
+  
+  
+}
+.academicoUno {
+}
+.titulo__formacionAcademica {
+  width: 339px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Preto/100% */
+
+  color: #464646;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.academica__panel img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 368px;
+  height: 347px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.imagen__formacionAcademicaUno {
+  width: 192px;
+  height: 130px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 78px;
+  left: 88px;
+}
+.imagen__formacionAcademicaDos {
+  width: 190px;
+  height: 130px;
+
+  /* background: url(image.png); */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.imagen__formacionAcademicaTres {
+  width: 190px;
+  height: 130px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 78px;
+  left: 89px;
+}
+.academico__panel-textoUno {
+}
+.academico__panel-textoDos {
+}
+.academico__panel-textoTres {
+}
+.fecha__academico-texto {
+}
